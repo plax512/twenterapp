@@ -81,7 +81,7 @@
 {
     if (IS_iPhone5)
     {
-        //[arrImages addObject:[UIImage imageNamed:@"background_screen_three_vt_txt.png"]];
+        [arrImages addObject:[UIImage imageNamed:@"background_screen_three_vt_txt.png"]];
         [arrImages addObject:[UIImage imageNamed:@"background_screen_one_vt_txt.png"]];
         [arrImages addObject:[UIImage imageNamed:@"background_screen_two_vt_screen.png"]];
     }

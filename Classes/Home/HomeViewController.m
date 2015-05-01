@@ -106,7 +106,7 @@
 
     self.navigationController.navigationBarHidden = NO;
     [APPDELEGATE addBackButton:self.navigationItem];
-    [self.navigationItem setTitle:@"20 and Over"];
+    [self.navigationItem setTitle:@"Flamer"];
     [APPDELEGATE addrightButton:self.navigationItem];
     
     [self.revealSideViewController setDirectionsToShowBounce: PPRevealSideDirectionLeft | PPRevealSideDirectionRight ];
@@ -775,7 +775,7 @@
 
 -(IBAction)openMail :(id)sender
 {
-    [super sendMailSubject:@"20 and Over!" toRecipents:[NSArray arrayWithObject:@""] withMessage:@"I am using 20 and Over! Whay don't you try it out…<br/>Install 20 and Over now !<br/><b>Google Play :-</b> <a href='https://play.google.com/store/apps/details?id=com.appdupe.flamernofb'>https://play.google.com/store/apps/details?id=com.appdupe.flamernofb</a><br/><b>iTunes :-</b>"];
+    [super sendMailSubject:@"Flamer App!" toRecipents:[NSArray arrayWithObject:@""] withMessage:@"I am using Flamer App ! Whay don't you try it out…<br/>Install Flamer now !<br/><b>Google Play :-</b> <a href='https://play.google.com/store/apps/details?id=com.appdupe.flamernofb'>https://play.google.com/store/apps/details?id=com.appdupe.flamernofb</a><br/><b>iTunes :-</b>"];
 }
 
 #pragma mark -

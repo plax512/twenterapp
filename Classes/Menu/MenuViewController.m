@@ -197,10 +197,10 @@
 {
     if (actSheet.tag == 200) {
         if(buttonIndex == 0){
-            [super sendMailSubject:@"20 and Over!" toRecipents:[NSArray arrayWithObject:@""] withMessage:@"I am using 20 and Over! Whay don't you try it out…<br/>Install 20 and Over now !<br/><b>Google Play :-</b> <a href='https://play.google.com/store/apps/details?id=com.appdupe.flamernofb'>https://play.google.com/store/apps/details?id=com.appdupe.flamernofb</a><br/><b>iTunes :-</b>"];
+            [super sendMailSubject:@"Flamer App!" toRecipents:[NSArray arrayWithObject:@""] withMessage:@"I am using Flamer App ! Whay don't you try it out…<br/>Install Flamer now !<br/><b>Google Play :-</b> <a href='https://play.google.com/store/apps/details?id=com.appdupe.flamernofb'>https://play.google.com/store/apps/details?id=com.appdupe.flamernofb</a><br/><b>iTunes :-</b>"];
         }
         else if(buttonIndex == 1){
-            [super sendMessage:@"I am using 20 and Over! Whay don't you try it out…\nInstall 20 and Over now !\nGoogle Play :- https://play.google.com/store/apps/details?id=com.appdupe.flamernofb\niTunes :-"];
+            [super sendMessage:@"I am using Flamer App ! Whay don't you try it out…\nInstall Flamer now !\nGoogle Play :- https://play.google.com/store/apps/details?id=com.appdupe.flamernofb\niTunes :-"];
         }
     }
 }

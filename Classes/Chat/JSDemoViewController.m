@@ -351,7 +351,7 @@
 {
     MFMailComposeViewController* controller = [[MFMailComposeViewController alloc] init];
     controller.mailComposeDelegate = self;
-    [controller setSubject:@"20 and Over app!"];
+    [controller setSubject:@"Flamer App!"];
     [controller setMessageBody:@"" isHTML:NO];
     NSMutableArray *emails = [[NSMutableArray alloc] initWithObjects:@"info@appdupe.com", nil];
     [controller setToRecipients:[NSArray arrayWithArray:(NSArray *)emails]];
