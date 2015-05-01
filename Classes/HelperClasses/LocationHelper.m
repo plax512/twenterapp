@@ -119,7 +119,7 @@
         }
     }else{
         if (blockDidUpdate) {
-            blockDidUpdate(currentLocation,oldLocation,[NSError errorWithDomain:@"flamer" code:90000 userInfo:[NSDictionary dictionary]]);
+            blockDidUpdate(currentLocation,oldLocation,[NSError errorWithDomain:@"twenter" code:90000 userInfo:[NSDictionary dictionary]]);
         }
     }
 }

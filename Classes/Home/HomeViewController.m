@@ -106,7 +106,7 @@
 
     self.navigationController.navigationBarHidden = NO;
     [APPDELEGATE addBackButton:self.navigationItem];
-    [self.navigationItem setTitle:@"Flamer"];
+    [self.navigationItem setTitle:@"Twenter"];
     [APPDELEGATE addrightButton:self.navigationItem];
     
     [self.revealSideViewController setDirectionsToShowBounce: PPRevealSideDirectionLeft | PPRevealSideDirectionRight ];

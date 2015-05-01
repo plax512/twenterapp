@@ -779,7 +779,7 @@
 
 - (void)openMail
 {
-    [super sendMailSubject:@"Flamer App!" toRecipents:[NSArray arrayWithObject:@"info@appdupe.com"] withMessage:@""];
+    [super sendMailSubject:@"Twenter App!" toRecipents:[NSArray arrayWithObject:@"info@appdupe.com"] withMessage:@""];
 }
 
 #pragma mark -
