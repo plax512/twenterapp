@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Flamer</string>
+	<string>Twenter</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIcons</key>
@@ -44,7 +44,7 @@
 	<key>CFBundleVersion</key>
 	<string>1.5</string>
 	<key>FacebookAppID</key>
-	<string>1430264720576632</string>
+	<string>354397688097875</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UIAppFonts</key>
