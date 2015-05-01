@@ -11,10 +11,8 @@
                 <outlet property="btnInfo" destination="9Zk-q9-qR4" id="Uva-fW-gZ3"/>
                 <outlet property="imgShadow" destination="t3q-LD-8HK" id="Wmp-U0-zrh"/>
                 <outlet property="pageControl" destination="aKH-jv-k6p" id="27J-wu-4iL"/>
-                <outlet property="picDate" destination="F2m-QT-cR0" id="Inn-Wf-2JH"/>
                 <outlet property="scrImages" destination="uXO-yg-b1X" id="kbV-xh-OPe"/>
                 <outlet property="view" destination="1" id="3"/>
-                <outlet property="viewDatePic" destination="Up8-PK-PSe" id="MNh-G2-wtW"/>
                 <outlet property="viewInfo" destination="abB-2M-LpT" id="i3A-BZ-yS7"/>
             </connections>
         </placeholder>
@@ -48,6 +46,7 @@
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                             <connections>
+                                <action selector="onClickDone:" destination="-1" eventType="touchUpInside" id="2oT-MJ-x2Z"/>
                                 <action selector="onClickbtnFBLogin:" destination="-1" eventType="touchUpInside" id="SK2-AU-bN6"/>
                             </connections>
                         </button>
@@ -74,47 +73,6 @@
                     <rect key="frame" x="0.0" y="365" width="320" height="11"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                 </imageView>
-                <view hidden="YES" contentMode="scaleToFill" id="Up8-PK-PSe" userLabel="viewDatePic">
-                    <rect key="frame" x="0.0" y="220" width="320" height="260"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <subviews>
-                        <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="ezT-rA-44H">
-                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                            <items>
-                                <barButtonItem style="plain" systemItem="flexibleSpace" id="3Di-kH-kCP"/>
-                                <barButtonItem style="plain" id="LG8-Li-O2e">
-                                    <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="IWL-4d-a4a">
-                                        <rect key="frame" x="85" y="6" width="150" height="33"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Date of Birth">
-                                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <state key="highlighted" title="Date of Birth">
-                                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                    </button>
-                                </barButtonItem>
-                                <barButtonItem style="plain" systemItem="flexibleSpace" id="rSU-ar-OdH"/>
-                                <barButtonItem title="Done" id="la9-kH-4aM">
-                                    <connections>
-                                        <action selector="onClickDone:" destination="-1" id="JWV-Ir-eA4"/>
-                                    </connections>
-                                </barButtonItem>
-                            </items>
-                        </toolbar>
-                        <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" id="F2m-QT-cR0" userLabel="picDate">
-                            <rect key="frame" x="0.0" y="44" width="320" height="216"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            <date key="date" timeIntervalSinceReferenceDate="424008840.40848303">
-                                <!--2014-06-09 12:14:00 +0000-->
-                            </date>
-                        </datePicker>
-                    </subviews>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <nil key="simulatedStatusBarMetrics"/>
