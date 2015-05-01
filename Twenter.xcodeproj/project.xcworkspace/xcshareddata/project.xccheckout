@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>845B583D-3DFF-4766-B99E-18AC9BD672D5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>52F0A4B141A7FFFAFC0B706D50442400724AAFBE</key>
+		<string>https://github.com/ranacseruet/20AndOver.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Twenter.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>52F0A4B141A7FFFAFC0B706D50442400724AAFBE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ranacseruet/20AndOver.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>52F0A4B141A7FFFAFC0B706D50442400724AAFBE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>52F0A4B141A7FFFAFC0B706D50442400724AAFBE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Twenter</string>
+		</dict>
+	</array>
+</dict>
+</plist>
