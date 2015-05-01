@@ -167,7 +167,7 @@
 {
     self.viewDatePic.hidden=YES;
     
-    NSDate *birthDate = self.picDate.date;
+    /*NSDate *birthDate = self.picDate.date;
     NSDate *currentDate = [NSDate date];
     
     NSCalendar *calendar = [NSCalendar currentCalendar];
@@ -193,8 +193,8 @@
         });
     }
     else
-    {
-        strBdate=[[UtilityClass sharedObject]DateToString:birthDate withFormate:@"yyyy-MM-dd"]; //0000-00-00
+    {*/
+        //strBdate=[[UtilityClass sharedObject]DateToString:birthDate withFormate:@"yyyy-MM-dd"]; //0000-00-00
         
         if ([FacebookUtility sharedObject].session.state!=FBSessionStateOpen)
         {
@@ -228,7 +228,7 @@
                  }
              }];
         }
-    }
+    //}
 }
 
 -(void)getFacebookUserDetails
@@ -293,7 +293,7 @@
         log=[[UserDefaultHelper sharedObject] currentLongitude];
     }
 
-    NSString *BDAy =strBdate;
+    //NSString *BDAy =strBdate;
     /*
     NSString  *BDAy = [Helper getBirthDate:[FBUserDetailDict objectForKey:FACEBOOK_BIRTHDAY]];
     if (BDAy.length ==0 || [BDAy isEqualToString:@""] || BDAy == nil) {
@@ -319,7 +319,7 @@
     
     [dictParam setObject:lat forKey:PARAM_ENT_CURR_LAT];
     [dictParam setObject:log forKey:PARAM_ENT_CURR_LONG];
-    [dictParam setObject:BDAy forKey:PARAM_ENT_DOB];
+    //[dictParam setObject:BDAy forKey:PARAM_ENT_DOB];
     [dictParam setObject:proPic forKey:PARAM_ENT_PROFILE_PIC];
     [dictParam setObject:@"1" forKey:PARAM_ENT_DEVICE_TYPE];
     
