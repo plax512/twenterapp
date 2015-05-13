@@ -220,7 +220,7 @@
     }
     
     /***** settings For distance slider******/
-    sliderDistance.maximumValue =100;
+    sliderDistance.maximumValue =1000;
     sliderDistance.minimumValue = 0;
     if ([UserSettings currentSetting].prRad==nil) {
         [UserSettings currentSetting].prRad=@"50";
