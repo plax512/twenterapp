@@ -45,6 +45,7 @@ typedef enum : NSUInteger{
 //Api Url
 //#define API_URL    @"http://elluminati.in/Flamer_nofacebook_developer/process.php/"//Development
 #define API_URL    @"http://128.199.178.6/twenter-api/process.php?/"//Live
+//#define API_URL    @"http://192.168.2.12/twenter-api/process.php?/"//Local
 //#define API_URL      @"http://twenter.io/process.php/"//Local
 
 /* Development URL

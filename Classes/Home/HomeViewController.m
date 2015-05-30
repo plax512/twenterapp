@@ -156,7 +156,7 @@
     self.viewPercentMatch.backgroundColor=[UIColor clearColor];
     
     BOOL isQuestionShow=[[NSUserDefaults standardUserDefaults]boolForKey:@"isQuestionShow"];
-    if (!isQuestionShow)
+    if (!isQuestionShow && false) //disable showing questions
     {
         QuestionVC *vcQue=[[QuestionVC alloc]initWithNibName:@"QuestionVC" bundle:nil];
         [self presentViewController:vcQue animated:YES completion:^{

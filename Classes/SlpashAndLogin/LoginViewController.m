@@ -294,7 +294,7 @@
     }
 
     //NSString *BDAy =strBdate;
-    /*
+    
     NSString  *BDAy = [Helper getBirthDate:[FBUserDetailDict objectForKey:FACEBOOK_BIRTHDAY]];
     if (BDAy.length ==0 || [BDAy isEqualToString:@""] || BDAy == nil) {
         BDAy  =@"0000-00-00";
@@ -302,7 +302,7 @@
     else{
         BDAy = [Helper getBirthDate:[FBUserDetailDict objectForKey:FACEBOOK_BIRTHDAY]];
     }
-     */
+    
     NSString *proPic=@"https://fbcdn-profile-a.akamaihd.net/static-ak/rsrc.php/v2/yL/r/HsTZSDw4avx.gif";
     if ([[[FBUserDetailDict objectForKey:@"picture"] objectForKey:@"data"] objectForKey:@"url"]!=nil)
     {

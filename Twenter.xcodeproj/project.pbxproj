@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -2089,12 +2089,12 @@
 				ORGANIZATIONNAME = AppDupe;
 				TargetAttributes = {
 					C2FED1AA18421CFA002F322C = {
-						DevelopmentTeam = PAG448B6P5;
+						DevelopmentTeam = ADQLS54VVQ;
 					};
 				};
 			};
 			buildConfigurationList = C2FED1A618421CFA002F322C /* Build configuration list for PBXProject "Twenter" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -2544,8 +2544,8 @@
 		1432228318F7CF05006D0C10 /* TinderRelease */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Arjun Subburaj (E4V328P2K3)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Arjun Subburaj (E4V328P2K3)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
@@ -2564,9 +2564,10 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/Classes/ExternalAPIs/Twitter+OAuth/LibrariesAndHeaders\"",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "36199F7A-1E76-4515-830F-17A98C945CE4";
-				VALID_ARCHS = "armv7 armv7s";
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "arm64 armv7";
 				WRAPPER_EXTENSION = app;
 			};
 			name = TinderRelease;
@@ -2634,8 +2635,8 @@
 		C2FED1E418421CFA002F322C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Arjun Subburaj (E4V328P2K3)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Arjun Subburaj (E4V328P2K3)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
@@ -2656,8 +2657,8 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "36199F7A-1E76-4515-830F-17A98C945CE4";
-				VALID_ARCHS = "armv7 armv7s";
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "arm64 armv7";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -2665,8 +2666,8 @@
 		C2FED1E518421CFA002F322C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Arjun Subburaj (E4V328P2K3)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Arjun Subburaj (E4V328P2K3)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
@@ -2685,9 +2686,10 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/Classes/ExternalAPIs/Twitter+OAuth/LibrariesAndHeaders\"",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "36199F7A-1E76-4515-830F-17A98C945CE4";
-				VALID_ARCHS = "armv7 armv7s";
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "arm64 armv7";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
